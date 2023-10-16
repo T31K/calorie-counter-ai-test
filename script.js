@@ -5,7 +5,6 @@ if (navigator.mediaDevices && navigator.mediaDevices.getUserMedia) {
           // Assign the video stream to the video element's srcObject
           var video = document.getElementById('videoStream');
           video.srcObject = stream;
-
           // Play the video
           video.play();
       })
